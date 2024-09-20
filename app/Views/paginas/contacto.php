@@ -18,106 +18,31 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
-<body>
-<header class="navbar navbar-expand-lg navbar-shadow navbar-end mb-3">
-  <div class="container">
-    <div class="navbar-nav-wrap">
-      <div class="navbar-brand-wrapper">
-        <a class="navbar-brand" href="../index.html" aria-label="Front">
-          <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
-        </a>
-      </div>
-      <button type="button" class="navbar-toggler ms-auto" data-bs-toggle="collapse" data-bs-target="#navbarNavMenuShadow" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbarNavMenuShadow">
-        <span class="navbar-toggler-default">
-          <i class="bi-list"></i>
-        </span>
-        <span class="navbar-toggler-toggled">
-          <i class="bi-x"></i>
-        </span>
-      </button>
-      <nav class="navbar-nav-wrap-col collapse navbar-collapse" id="navbarNavMenuShadow">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarShadowDropdownSubMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+<body class="bg-dark">
+<?php require_once('componentes/navbar.php'); ?>
 
-            <div class="dropdown-menu" aria-labelledby="navbarShadowDropdownSubMenu" style="min-width: 230px;">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarShadowMegaMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mega menu</a>
-
-            <div class="dropdown-menu w-100" aria-labelledby="navbarShadowMegaMenu">
-              <div class="row">
-                <div class="col-lg-3 mb-3 mb-lg-0">
-                  <span class="dropdown-header">One</span>
-
-                  <a class="dropdown-item" href="#">One</a>
-                  <a class="dropdown-item" href="#">Two</a>
-                  <a class="dropdown-item" href="#">Three</a>
-                </div>
-
-                <div class="col-lg-3 mb-3 mb-lg-0">
-                  <span class="dropdown-header">Two</span>
-
-                  <a class="dropdown-item" href="#">One</a>
-                  <a class="dropdown-item" href="#">Two</a>
-                  <a class="dropdown-item" href="#">Three</a>
-                </div>
-
-                <div class="col-lg-3 mb-3 mb-lg-0">
-                  <span class="dropdown-header">Three</span>
-
-                  <a class="dropdown-item" href="#">One</a>
-                  <a class="dropdown-item" href="#">Two</a>
-                </div>
-
-                <div class="col-lg-3">
-                  <span class="dropdown-header">Four</span>
-
-                  <a class="dropdown-item" href="#">One</a>
-                  <a class="dropdown-item" href="#">Two</a>
-                  <a class="dropdown-item" href="#">Three</a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</header>
-<div class="container content-space-t-3 content-space-t-lg-2 content-space-b-2">
+<div class="container content-space-t-3 content-space-t-lg-4 content-space-b-2">
   <div class="row">
     <div class="col-lg-6 mb-9 mb-lg-0">
       <div class="mb-5">
-        <h1>Ponte en contacto</h1>
-        <p>Nos encantaría hablar sobre cómo podemos ayudarle.</p>
+        <h1 class="text-white">Ponte en contacto</h1>
+        <p class="text-white">Nos encantaría hablar sobre cómo podemos ayudarle.</p>
       </div>
       <div class="overflow-hidden">
         <div id="mapEg3" class="leaflet mb-5"></div>
       </div>
       <div class="row">
         <div class="col-sm-6">
-          <h5 class="mb-1">Llámanos:</h5>
-          <p>+1 (062) 109-9222</p>
+          <h5 class="mb-1 text-white">Llámanos:</h5>
+          <p class="text-white">+1 (062) 109-9222</p>
         </div>
         <div class="col-sm-6">
-          <h5 class="mb-1">Envíenos un correo electrónico:</h5>
-          <p>hello@example.com</p>
+          <h5 class="mb-1 text-white">Envíenos un correo electrónico:</h5>
+          <p class="text-white">hello@example.com</p>
         </div>
         <div class="col-sm-6">
-          <h5 class="mb-1">Direcciòn:</h5>
-          <p>153 Williamson Plaza, Maggieberg</p>
+          <h5 class="mb-1 text-white">Direcciòn:</h5>
+          <p class="text-white">153 Williamson Plaza, Maggieberg</p>
         </div>
       </div>
     </div>

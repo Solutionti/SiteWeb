@@ -53,11 +53,6 @@
   </div>
 </div>
 <div class="e me-4 fixedButton ">
-<!-- <div class=" me-2 fixedButton ">
-  <button type="button" class="btn btn-success btn-icon avatar-circle btn-md" style="background-color: #00B300 !important;">
-    <i class="fab fa-whatsapp fa-lg"></i>
-  </button>
-</div> -->
   <a
     type="button"
     target="_blank"
